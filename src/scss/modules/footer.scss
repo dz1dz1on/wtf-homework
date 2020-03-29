@@ -1,43 +1,43 @@
 .contact {
   margin: 0 auto;
   max-width: 1184px;
-  padding-bottom: 128px;
+  padding-bottom: 8rem;
 
   &__title {
     margin: 0;
-    padding-top: 132px;
+    padding-top: 8.25rem;
     color: $white;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.75rem;
     &::before {
       content: "";
       display: block;
-      height: 2px;
-      width: 80px;
+      height: 0.125rem;
+      width: 5rem;
       background: $light-blue;
-      border-radius: 8px;
-      margin-bottom: 24px;
+      border-radius: 0.5rem;
+      margin-bottom: 1.5rem;
     }
   }
 
   &__description {
-    padding-top: 16px;
+    padding-top: 1rem;
     margin: 0;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     color: $white;
     font-weight: 300;
-    max-width: 580px;
+    max-width: 36.25rem;
   }
 
   &__email {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: $light-blue;
     text-decoration: none;
-    border-bottom: 2px solid $light-blue;
-    padding-bottom: 8px;
+    border-bottom: 0.125rem solid $light-blue;
+    padding-bottom: 0.5rem;
   }
 }

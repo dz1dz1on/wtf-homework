@@ -6,26 +6,26 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 48px;
-    padding: 16px 0;
-    border-bottom: 2px solid $sauvignon;
-    margin-bottom: 110px;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    padding: 1rem 0;
+    border-bottom: 0.125rem solid $sauvignon;
+    margin-bottom: 6.875rem;
   }
 }
 
 .skills-list {
   display: grid;
-  padding: 128px 0 0;
+  padding: 8rem 0 0;
   grid-template-columns: 1fr 1fr;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   &__list {
     margin: 0;
     padding: 0;
-    margin-top: 28px;
+    margin-top: 1.75rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 24px;
+    grid-column-gap: 1.5rem;
     list-style: none;
   }
 
@@ -33,19 +33,19 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
     color: $grey;
-    min-height: 40px;
-    padding: 12px 0 12px 22px;
+    min-height: 2.5rem;
+    padding: 0.75rem 0 0.75rem 1.375rem;
     position: relative;
     &::before {
       position: absolute;
       left: 0;
-      top: 12px;
+      top: 0.75rem;
       content: "";
       display: block;
-      width: 16px;
-      height: 16px;
+      width: 1rem;
+      height: 1rem;
       margin: 0;
       background: url("../../assets/img/green.svg");
       .skills-list--violet & {
@@ -59,16 +59,16 @@
   &__title {
     margin: 0;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 2rem;
+    line-height: 2.75rem;
     &::before {
       content: "";
       display: block;
-      width: 80px;
-      height: 4px;
-      border-radius: 8px;
+      width: 5rem;
+      height: 0.25rem;
+      border-radius: 0.5rem;
       background: $green;
-      margin-bottom: 24px;
+      margin-bottom: 1.5rem;
       .skills-list--violet & {
         background: $violet;
       }
