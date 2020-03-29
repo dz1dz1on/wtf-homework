@@ -21,7 +21,7 @@
   }
   &__description {
     max-width: 681px;
-    color: #52606d;
+    color: $grey;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -32,12 +32,12 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
-    color: #0593fb;
+    color: $light-blue;
     text-decoration: none;
     padding: 0 0 8px;
-    border-bottom: 2px solid #0593fb;
+    border-bottom: 2px solid $light-blue;
   }
   &__link {
-    color: #0593fb;
+    color: $light-blue;
   }
 }
