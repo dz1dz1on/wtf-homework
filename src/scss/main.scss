@@ -1,0 +1,30 @@
+@import "_normalize";
+@import "_variables";
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap");
+@import "modules/hero.scss";
+@import "modules/skills.scss";
+@import "modules/projects.scss";
+@import "modules/footer.scss";
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  color: #171f3f;
+  background: white;
+  font-family: Poppins;
+  border: 16px solid #171f3f;
+}
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+footer {
+  background: #171f3f;
+}
