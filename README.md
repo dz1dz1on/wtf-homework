@@ -1,9 +1,4 @@
-# wtf-gulp-starter
+# My homework site
 
-`npm install -g gulp-cli`
-
-`npm install`
-
-`gulp`
-
-To publish your page using github pages use `npm run deploy`
+After pulling repository do `npm install`.
+To run site locally use `npm run gulp`.
