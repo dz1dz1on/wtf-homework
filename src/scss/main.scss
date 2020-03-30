@@ -15,20 +15,24 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 16px;
-  @media (max-width: 768px) {
+  @media (max-width: $mobile) {
     font-size: 11px;
   }
 }
 body {
-  color: #171f3f;
+  color: $dark-blue;
   background: white;
   font-family: Poppins;
-  border: 16px solid #171f3f;
+  border: 16px solid $dark-blue;
+  @media (max-width: $mobile) {
+    border: none;
+  }
 }
 .container {
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 footer {
-  background: #171f3f;
+  background: $dark-blue;
 }
