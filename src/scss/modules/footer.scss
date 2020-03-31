@@ -10,6 +10,9 @@
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.75rem;
+    @media (max-width: $mobile) {
+      padding-top: 120px;
+    }
     &::before {
       content: "";
       display: block;
@@ -39,5 +42,8 @@
     text-decoration: none;
     border-bottom: 0.125rem solid $light-blue;
     padding-bottom: 0.5rem;
+    @media (max-width: $mobile) {
+      font-size: 1.4rem;
+    }
   }
 }

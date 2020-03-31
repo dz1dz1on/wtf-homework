@@ -5,7 +5,7 @@
   background: $alice-blue;
   @media (max-width: $mobile) {
     margin-top: 80px;
-    padding: 80px 0 0;
+    padding: 80px 0;
   }
   &__title {
     font-family: Poppins;
@@ -36,6 +36,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  @media (max-width: $mobile) {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
 }
 
 .project {
@@ -97,9 +100,19 @@
       width: 1.5rem;
       height: 1.5rem;
       background: url("../../assets/img/pc.icon.svg");
+      @media (max-width: $mobile) {
+        background: url("../../assets/img/pc-mobile.icon.svg");
+        width: 20px;
+        height: 20px;
+      }
     }
     &--git::before {
       background: url("../../assets/img/console.icon.svg");
+      @media (max-width: $mobile) {
+        background: url("../../assets/img/console-mobile.icon.svg");
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
