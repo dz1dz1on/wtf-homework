@@ -43,6 +43,9 @@
 
 .project {
   background: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: 0 0.375rem 1rem rgba(24, 41, 67, 0.09);
   border-radius: 0.5rem;
   overflow: hidden;
